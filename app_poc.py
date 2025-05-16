@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from pptx import Presentation
 import io
 
 st.set_page_config(page_title="Startup-Investor Matcher", page_icon="🚀")
